@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	/* background-image: url("../IMAGENS/fundo.png"); */
+	color: black;
+	font-family: sans-serif;
+}
+
+#Cabecalho{
+	text-align: center;
+	padding: 0;
+	z-index: 999;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover{
+	color: blue;
+	font-size: 21px;
+}
+
+input{
+	outline: none;
+	display: block;
+	height: 40px;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 15px;
+	border:1px solid black;
+	font-size: 16pt;
+	padding: 10px 15px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+div#corpo-form {
+	width: 480px;
+	margin: 80px auto;
+}
+
+div#corpo-form h1{
+	text-align: center;
+	padding: 10px;
+}
+
+input[type=submit]{
+	background-color: steelblue;
+	border: none;
+	cursor: pointer;
+}
+
+div#msg-sucesso{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: whitesmoke;
+	border: 1px solid black;
+	color: white;
+}
+div.msg-erro{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+}
